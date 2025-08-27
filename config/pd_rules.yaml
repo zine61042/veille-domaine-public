@@ -1,0 +1,25 @@
+current_year: 2025
+markets:
+  EU70:
+    countries:
+      - France
+      - Canada
+      - United Kingdom
+      - Germany
+      - Sweden
+      - Ireland
+      - Norway
+      - Finland
+      - Denmark
+      - Austria
+      - Spain
+      - Portugal
+    rule: author_death_year <= Y-71
+  Mexico100:
+    countries:
+      - Mexico
+    rule: author_death_year <= Y-101
+  US_pub:
+    countries:
+      - United States
+    rule: publication_year <= 1929
